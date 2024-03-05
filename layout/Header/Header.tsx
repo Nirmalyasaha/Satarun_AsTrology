@@ -70,7 +70,7 @@ export default function Header() {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+       SATURUN   
       </Typography>
       <Divider />
       <List>
@@ -123,8 +123,8 @@ export default function Header() {
             >
               <MenuIcon />
             </IconButton>
-            <Link href="/" className="headerLogo">
-              <Image src={assest.logo_img} width={250} height={38} alt="Logo" />
+            <Link href="/" className="headerLogo" >
+              SATURUN
             </Link>
             {isLoggedIn ? (
               <Box

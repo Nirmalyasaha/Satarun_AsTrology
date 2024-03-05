@@ -1,38 +1,47 @@
 .image_slider_container {
   margin: 10px auto;
   position: relative;
+  
 }
 .image_slider_container .slick-prev:before,
 .image_slider_container .slick-next:before {
   color: black;
 }
-.bannerImg {
-}
 .bannerText1 {
   text-align: center;
   position: absolute;
-  top: 50%;
-  margin-bottom: 80px;
+  top: 30%;
   width: 60%;
   font-size: 80px;
   color: rgb(229, 240, 240);
-  
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.bannerText2{
+.bannerText2 {
   text-align: center;
- top: 50%;
- font-size: 30px;
- top: 50%;
-position: absolute;
-margin: 100px 245px;
+  top: 50%;
+  font-size: 25px;
+  position: absolute;
+  margin: 100px;
 }
- 
+.bannerImg{
+  height: 400px;
+}
+.bannerP {
+  text-align: center;
+  top: 50%;
+  font-size: 30px;
+  position: absolute;
+  padding-left: 300px;
+  color: rgb(239, 243, 223);
+}
 
-.btn1{
-  background: #000080;
+.HomeBtn1 {
+  background: #f0ebe3;
   border-radius: 45px;
   padding: 15px 34px;
-  margin: 10px;
-
+  
+  
+}
+.HomeBtn1:hover {
+  background-color: #e8f195;
 }
